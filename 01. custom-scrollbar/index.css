@@ -1,0 +1,37 @@
+
+.wrap {
+    padding: 40px;
+    background-color: #B1B2FF;
+    overflow-y: auto;
+    height: 100%;
+}
+
+.wrap::-webkit-scrollbar {
+    width: 15px;
+}
+
+.wrap::-webkit-scrollbar-thumb {
+    background: #AAC4FF;
+    border-radius: 20px;
+}
+
+.wrap::-webkit-scrollbar-thumb:hover {
+    background: #D2DAFF;
+}
+
+.wrap::-webkit-scrollbar-track {
+    background: #B1B2FF;
+}
+
+.title {
+    color: white;
+    font-size: 40px;
+    margin-bottom: 40px;
+}
+
+.body {
+    color: white;
+    font-size: 20px;
+}
+
+
