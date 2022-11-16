@@ -63,12 +63,20 @@ fieldset {
 a {
     cursor: pointer;
     text-decoration: none;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-tap-highlight-color: black;
 }
 
 a:focus {
     outline: none;
 }
+
+a:link { color:black; text-decoration: none;}
+
+a:visited { color:black; text-decoration: none;}
+
+a:hover { color:black; text-decoration: none;}
+
+a:active { color:black; text-decoration: none;}
 
 fieldset {
     margin: 0;
